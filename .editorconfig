@@ -1,0 +1,20 @@
+# Pra todos os arquivos
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+ 
+# Estilo de identação em arquivos HTML
+[*.php]
+indent_style = tab
+indent_size = 4
+ 
+# Estilo de identação em arquivos CSS
+[sources/styles/*.styl]
+indent_style = tab
+indent_size = 4
+ 
+# Estilo de identação em arquivos JS dentro do diretório Scripts
+[sources/scripts/*.js]
+indent_style = space
+indent_size = 4
